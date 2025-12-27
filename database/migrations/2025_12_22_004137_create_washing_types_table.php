@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('title');
             $table->double('price');
             $table->text('description');
-            $table->time('period');
+            $table->int('period');
             $table->timestamps();
         });
     }

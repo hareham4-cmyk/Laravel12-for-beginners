@@ -20,7 +20,7 @@ class WashingTypeFactory extends Factory
         'title' => fake()->sentence(),
         'price' => fake()->numberBetween(10 , 40),
         'description' => fake()->paragraph(),
-        'period' => fake()->time(),
+        'period' => fake()->int(),
         ];
     }
 }

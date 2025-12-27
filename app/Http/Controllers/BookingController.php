@@ -22,8 +22,10 @@ class BookingController extends Controller
     public function store(Request $request)
     {
         $washing_type = WashingType::query()->where('id' , 'Washing_type_id');
-        if($washing_type->period )
-    }
+        for ( $i=0; $i<45; $i++){
+            
+        }}
+
 
     /**
      * Display the specified resource.
